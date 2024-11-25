@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box {
+    width: 160px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 0.5rem;
+}
+.card-box img{
+    border-radius: 5px;
+}
+.card-box .improve{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0.5rem ;
+    font-weight: 500;
+}
+
+.scan{
+    font-size: 0.5rem;
+    text-align: center;
+    color: grey;
+    margin-top: 0.5rem;
+}
